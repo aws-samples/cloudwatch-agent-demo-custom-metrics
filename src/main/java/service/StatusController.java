@@ -1,12 +1,12 @@
 // Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 
-package ordering;
+package service;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static ordering.Application.statsd;
+import static service.Application.statsd;
 
 @RestController
 public class StatusController {
