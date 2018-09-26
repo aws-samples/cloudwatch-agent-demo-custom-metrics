@@ -1,7 +1,7 @@
 // Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 
-package ordering;
+package service;
 
 import com.timgroup.statsd.NonBlockingStatsDClient;
 import org.springframework.boot.SpringApplication;
